@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header id="header"> <!-- #1 -->
+        <img src="https://cdn.shopify.com/s/files/1/0101/4864/2879/files/checkout-logo_d7780061-6bc6-4a6a-bd7c-779facadc7e9.jpg?height=628&pad_color=ffffff&v=1642671144&width=1200" id="header-img"> <!-- #2 -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-label">☰</label>
+        <nav id="nav-bar"> <!-- #3 -->
+            <a href="#section1" class="nav-link">Home</a> 
+            <a href="#section2" class="nav-link">Products</a> 
+            <a href="#section3" class="nav-link">About</a>
+            <a href="#section4" class="nav-link">Subscribe</a> 
+            <!-- #4, 5 -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h1>Let's Build Your PC!</h1>
+            <div class="video-container">
+                <video id="video" controls> <!-- #6 -->
+                    <source src="https://cdn.shopify.com/videos/c/o/v/ba1a22a221ff47b7abecd9160bbf0049.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="section2">
+            <h2>Our Products</h2>
+            <p>To help you find the perfect PC, select a category that matches your needs:</p>
+            <div class="product-grid">  
+                
+                <div class="product-card">
+                    <img src="https://easypc.com.ph/cdn/shop/files/KIT-009537-Thumbnail-ProductivityWebsite-PRODN11_420x.png?v=1704957456" id="entrylevel">
+                    <h3>Entry Level Builds</h3>
+                    <p>Perfect for casual users looking for a budget-friendly option.</p>
+                </div> 
+                
+                <div class="product-card">
+                    <img src="https://easypc.com.ph/cdn/shop/files/KIT-009539-Thumbnail-GamingWebsite-GAMEA1_420x.png?v=1704957746" id="midrange">
+                    <h3>Mid-range Builds</h3>
+                    <p>Great performance for gamers and content creators alike.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://easypc.com.ph/cdn/shop/files/ThumbnailGaming-GAMEO17_420x.png?v=1704874605" id="flagship">
+                    <h3>Flagship Builds</h3>
+                    <p>Top-of-the-line components for ultimate performance.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="section3">
+
+            <h2>About us</h2>
+
+            <p> Welcome to EasyPC, your one-stop destination for custom-built PCs tailored  to meet your unique needs and budget! Whether you're a casual user, a passionate gamer, or a professional content creator, we have the perfect solution for you.
+            
+            <p>At EasyPC, we are dedicated to providing exceptional customer service and expert guidance throughout your PC-building journey. Our knowledgeable team is here to help you select the right components, assemble your dream machine, and answer any questions you may have.</p>
+            
+            <p>Join the EasyPC family today and let us help you build a computer that perfectly fits your lifestyle!</p>
+           
+        </section>
+
+        <section id="section4"> 
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="form" method="post" action="https://example.com/submit"> <!-- #7, #12 -->
+                <input type="email" id="email" placeholder="Enter your email address" required> <!-- #8, #9, #10 -->
+                <input type="submit" id="submit" value="Subscribe"> <!-- #11 -->
+            </form>
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EasyPC. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
